@@ -1,7 +1,7 @@
 <?php
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-use App\Venue;
+use App\Models\Venue;
 use Illuminate\Support\Str;
 use Faker\Generator as Faker;
 

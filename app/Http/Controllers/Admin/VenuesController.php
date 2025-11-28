@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\EventType;
+use App\Models\EventType;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Traits\MediaUploadingTrait;
 use App\Http\Requests\MassDestroyVenueRequest;
 use App\Http\Requests\StoreVenueRequest;
 use App\Http\Requests\UpdateVenueRequest;
-use App\Location;
-use App\Venue;
+use App\Models\Location;
+use App\Models\Venue;
 use Gate;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;

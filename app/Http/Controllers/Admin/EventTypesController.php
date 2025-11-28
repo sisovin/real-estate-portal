@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\EventType;
+use App\Models\EventType;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Traits\MediaUploadingTrait;
 use App\Http\Requests\MassDestroyEventTypeRequest;
